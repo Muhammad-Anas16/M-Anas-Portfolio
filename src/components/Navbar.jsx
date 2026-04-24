@@ -59,7 +59,7 @@ const Navbar = () => {
               className="
               flex flex-col p-4 mt-4
               border border-default rounded-base
-              bg-neutral-900/90 backdrop-blur-lg
+              bg-neutral-900/90
               md:flex-row md:space-x-8 md:mt-0
               md:border-0 md:bg-transparent
             "
