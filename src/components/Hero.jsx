@@ -52,6 +52,24 @@ const Hero = () => {
             alt="hero"
             src="https://dummyimage.com/720x600"
           />
+
+          {/* <Radar
+            speed={1}
+            scale={0.5}
+            ringCount={10}
+            spokeCount={10}
+            ringThickness={0.05}
+            spokeThickness={0.01}
+            sweepSpeed={1}
+            sweepWidth={2}
+            sweepLobes={1}
+            color="#9f29ff"
+            backgroundColor="#000000"
+            falloff={2}
+            brightness={1}
+            enableMouseInteraction
+            mouseInfluence={0.1}
+          /> */}
         </div>
       </div>
     </section>

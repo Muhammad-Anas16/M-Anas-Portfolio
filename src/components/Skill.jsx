@@ -8,20 +8,27 @@ import {
   FaFire,
   FaCloud,
 } from "react-icons/fa";
-import { SiMongodb, SiTailwindcss, SiExpress } from "react-icons/si";
-import { TbApi } from "react-icons/tb";
+import { SiMongodb, SiNetlify, SiTailwindcss, SiExpress, SiExpo } from "react-icons/si";
+import { TbApi, TbBrandNextjs } from "react-icons/tb";
+import { RxVercelLogo } from "react-icons/rx";
+import { IoLogoElectron } from "react-icons/io5";
 
 const skillsData = [
+  { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
+  { name: "Express", icon: SiExpress, color: "text-gray-300" },
   { name: "React.js", icon: FaReact, color: "text-cyan-400" },
+  { name: "Node.js", icon: FaNodeJs, color: "text-green-400" },
+  { name: "Next.js", icon: TbBrandNextjs, color: "text-white" },
+  { name: "Expo", icon: SiExpo, color: "text-cyan-400" },
+  { name: "Electron.js", icon: IoLogoElectron, color: "text-cyan-700" },
   { name: "HTML5 / CSS3", icon: FaHtml5, color: "text-orange-500" },
   { name: "Tailwind", icon: SiTailwindcss, color: "text-sky-400" },
-  { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
-  { name: "Node.js", icon: FaNodeJs, color: "text-green-400" },
   { name: "REST APIs", icon: TbApi, color: "text-purple-400" },
   { name: "Firebase", icon: FaFire, color: "text-yellow-500" },
   { name: "Git / Github", icon: FaGitAlt, color: "text-orange-400" },
-  { name: "Express", icon: SiExpress, color: "text-gray-300" },
-  { name: "Cloud Hosting", icon: FaCloud, color: "text-blue-400" },
+  { name: "Vercel Hosting", icon: RxVercelLogo, color: "text-white" },
+  { name: "Netlify Hosting", icon: SiNetlify, color: "text-teal-400" },
+  // { name: "Cloud Hosting", icon: FaCloud, color: "text-blue-400" },
 ];
 
 const Skill = () => {

@@ -19,10 +19,10 @@ const Navbar = () => {
 
   return (
     // ✅ FIX: Proper centering using translate
-    <nav className="bg-neutral-900/60 fixed left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] z-20 top-0 border-b border-default backdrop-blur-2xl rounded-full mt-4 shadow-[0_0_20px_rgba(0,245,255,0.1)]">
-      <div className="flex items-center justify-between mx-auto p-4 px-6">
+    <nav className="bg-neutral-900/60 fixed left-1/2 -translate-x-1/2 w-[98%] md:w-[95%] z-20 top-0 border-b border-default backdrop-blur-2xl rounded-full mt-4 shadow-[0_0_20px_rgba(0,245,255,0.1)]">
+      <div className="flex items-center justify-between mx-auto p-2 px-6">
         {/* Logo */}
-        <span className="text-xl uppercase text-heading font-bold text-[#22D3EE]">
+        <span className="text-xl uppercase text-heading font-bold text-[#22D3EE] cursor-pointer">
           M-anas.dev
         </span>
 
@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3 flex-row-reverse">
             <button
               type="button"
-              className="hidden md:inline-block text-black bg-[#00F5FF] rounded-full text-sm px-6 py-2 scale-95 active:scale-90 transition-transform"
+              className="hidden md:inline-block text-black bg-[#00F5FF] rounded-full text-sm px-6 py-2 scale-95 active:scale-90 transition-transform cursor-pointer"
             >
               Resume
             </button>
