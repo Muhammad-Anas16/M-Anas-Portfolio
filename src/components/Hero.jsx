@@ -4,7 +4,7 @@ import { MessageSquareText, Link2 } from "lucide-react";
 const Hero = () => {
   return (
     <section className="body-font">
-      <div className="container mx-auto flex px-6 py-32 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-6 pt-32 md:flex-row flex-col items-center">
         <div className="flex md:w-1/2 lg:pr-24 md:pr-16 flex-col gap-4 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <div className="flex flex-col items-baseline">
             <h1 className="font-bold">
@@ -55,11 +55,20 @@ const Hero = () => {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
+          {/* <img
             className="object-cover object-center rounded"
             alt="hero"
             src="https://dummyimage.com/720x600"
-          />
+          /> */}
+          <video autoPlay loop muted className="object-cover object-center rounded">
+            <source
+              className="object-cover object-center rounded"
+              src="/3d_models/model.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          {/* <spline-viewer className="object-cover object-center rounded" url="https://prod.spline.design/RHTtjEa7RXg0bBvf/scene.splinecode"></spline-viewer> */}
         </div>
       </div>
     </section>
