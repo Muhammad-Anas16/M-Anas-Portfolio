@@ -11,10 +11,12 @@ const Navbar = () => {
   };
 
   const MenuList = [
-    { name: "Home", href: "#" },
-    { name: "About", href: "#" },
-    { name: "Services", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Home", href: "#Hero" },
+    { name: "About", href: "#About" },
+    { name: "Skills", href: "#Skill" },
+    { name: "Projects", href: "#Projects" },
+    { name: "Education", href: "#Education" },
+    { name: "Contact", href: "#Contact" },
   ];
 
   return (

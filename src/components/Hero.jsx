@@ -25,20 +25,28 @@ const Hero = () => {
               View Projects
             </button> */}
 
-            <button className="inline-flex text-black  bg-[#22D3EE] border-0 px-6 py-2 focus:outline-none hover:bg-[#0c95aa] rounded-full text-xs items-center gap-2 font-semibold cursor-pointer">
+            <a
+              href="https://wa.me/923182834203"
+              target="_blank"
+              className="inline-flex text-black  bg-[#22D3EE] border-0 px-6 py-2 focus:outline-none hover:bg-[#0c95aa] rounded-full text-xs items-center gap-2 font-semibold cursor-pointer"
+            >
               <MessageSquareText className="w-4 h-4" />
               WhatsApp
-            </button>
+            </a>
 
             {/* <button className="inline-flex text-[#22D3EE] border-1 px-6 focus:outline-none hover:bg-white/10 rounded-full text-xs items-center gap-2 font-semibold cursor-pointer">
               <MessageSquareText className="w-4 h-4" />
               WhatsApp
             </button> */}
 
-            <button className="inline-flex text-[#22D3EE] border px-6 py-2 focus:outline-none hover:bg-white/10 rounded-full text-xs items-center gap-2 font-semibold cursor-pointer">
+            <a
+              href="https://www.linkedin.com/in/muhammad-anas-16"
+              target="_blank"
+              className="inline-flex text-[#22D3EE] border px-6 py-2 focus:outline-none hover:bg-white/10 rounded-full text-xs items-center gap-2 font-semibold cursor-pointer"
+            >
               <Link2 className="w-4 h-4" />
               LinkedIn
-            </button>
+            </a>
 
             {/* <button className="inline-flex bg-transparent text-[#22D3EE] border-0 py-2 px-6 hover:text-[#0c95aa] text-xs items-center gap-2 font-semibold cursor-pointer">
               <Link2 className="w-4 h-4" />
@@ -52,24 +60,6 @@ const Hero = () => {
             alt="hero"
             src="https://dummyimage.com/720x600"
           />
-
-          {/* <Radar
-            speed={1}
-            scale={0.5}
-            ringCount={10}
-            spokeCount={10}
-            ringThickness={0.05}
-            spokeThickness={0.01}
-            sweepSpeed={1}
-            sweepWidth={2}
-            sweepLobes={1}
-            color="#9f29ff"
-            backgroundColor="#000000"
-            falloff={2}
-            brightness={1}
-            enableMouseInteraction
-            mouseInfluence={0.1}
-          /> */}
         </div>
       </div>
     </section>
